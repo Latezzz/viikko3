@@ -23,9 +23,9 @@ public class App
                     case 1:
                         System.out.println("Mikä laji?");
                         String species = sc.nextLine();
-                        System.out.println("Anna eläimen nimi");
+                        System.out.println("Anna eläimen nimi:");
                         String name = sc.nextLine();
-                        System.out.println("Anna eläimen ikä");
+                        System.out.println("Anna eläimen ikä:");
                         int age = Integer.parseInt(sc.nextLine());
 
                         newZoo.addAnimal(species, name, age);
